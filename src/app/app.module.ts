@@ -11,6 +11,7 @@ import { UserRegComponent } from './user-reg/user-reg.component';
 import { HttpClientModule } from "@angular/common/http";
 import { UserLogComponent } from './user-log/user-log.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { NavigationComponent } from './navigation/navigation.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -40,7 +41,8 @@ const myRoute:Routes=[
     DashboardComponent,
     UserRegComponent,
     UserLogComponent,
-    ViewProfileComponent
+    ViewProfileComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
